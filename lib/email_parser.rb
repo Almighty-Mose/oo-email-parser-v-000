@@ -16,7 +16,8 @@ class EmailParser
   end
 
 #Then, go through that list and capture email addresses.
-  
+  def parse
+    self.list 
   
 
 #Using a method parse, we want to separate them into unique emails.
