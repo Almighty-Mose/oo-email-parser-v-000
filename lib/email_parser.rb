@@ -17,7 +17,7 @@ class EmailParser
 
 #Then, go through that list and split them into unique emails.
   def parse
-    self.list.split(", ")
+    self.list.uniq.split(", ")
   end
   
 end
