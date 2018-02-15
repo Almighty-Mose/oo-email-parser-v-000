@@ -18,7 +18,7 @@ class EmailParser
 #Then, go through that list and split them into unique emails.
 #How can I parse either by CSV OR Space emails?
   def parse
-    self.list.split(", ").uniq
+    self.list.split(/,\s/).uniq
   end
   
 end
