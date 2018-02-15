@@ -9,6 +9,11 @@ class EmailParser
 #Then our instances need to be initialized with an email string.
 #I want the instance of EmailParser to have a property "list" where the array will be stored.
   attr_accessor :list
+  
+#first, take the string and make it into an array.
+
+def string_to_array
+  
 
 #Using a method parse, we want to separate them into unique emails.
 #How do we do this?
